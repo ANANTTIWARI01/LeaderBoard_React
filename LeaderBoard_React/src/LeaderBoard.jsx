@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-// import "./leaderBoard.css"
+import "./leaderBoard.css"
 function LeaderBoard() {
     const [fname, setFname] = useState("")
     const [lname, setLname] = useState("")
@@ -65,10 +65,10 @@ function LeaderBoard() {
             <div className="result">
                 {leaderBoard ? leaderBoard.map((obj) => 
                     <p key={obj.id}>
-                        <span>{obj.Name}</span>
-                        <span>{obj.Country}</span>
-                        <span>{obj.Score}</span>
-                        <span>
+                        <span className="spanData">{obj.Name}</span>
+                        <span className="spanData">{obj.Country}</span>
+                        <span className="spanData">{obj.Score}</span>
+                        <span className="buttonSpan">
                             <button onClick={() => IncrementFIve(obj.id)}>+5</button>
                             <button onClick={() => DecrementFIve(obj.id)}>-5</button>
                             <button onClick={() => DeleteItem(obj.id)}>Delete</button>

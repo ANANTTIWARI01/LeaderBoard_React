@@ -6,3 +6,59 @@
 .result{
     color: black;
 }
+div#root {
+    display: flex
+  ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color:#000;
+  }
+
+
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 20px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color:#000 !important;
+    background-color: rgb(173, 208, 173);
+    
+
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(173, 208, 173);
+color: #000;
+}
+
+.spanData{
+    /* border: 2px solid #fff; */
+    
+        border: 2px solid #000;
+        margin: 10px;
+        border-radius: 6px;
+        padding: 10px;
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+        background-color: rgb(173 212 153);
+}
+p {
+    margin: 20px 0px;
+}
+.buttonSpan button{
+    border: 2px solid #fff;
+margin: 0px 10px;
+}
+form button{
+    padding:10px 15px;
+}
